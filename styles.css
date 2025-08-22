@@ -99,9 +99,50 @@ body {
     grid-row: 5;
     display: grid;
     grid-template-rows: 0.1fr 1fr;
+    padding: 16px;
 }
 
 .trending-card {
     display: grid;
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 0.2fr);
+    background-color: antiquewhite;
+    border-radius: 16px;
+    padding: 24px;
+    row-gap: 32px;
+}
+
+.trending-user {
+    display: grid;
+    grid-template-rows: repeat(2, 0.4fr);
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    justify-content: center;
+    column-gap: 12px;
+}
+
+.trending-user h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.user-pfp {
+    grid-row: 1 / -1;
+    max-width: 48px;
+    max-height: 48px;
+}
+
+.user-handle {
+    grid-column: 2;
+}
+
+.user-details {
+    grid-row: 2;
+    grid-column: 2;
+    font-size: 14px;
+}
+
+.user-pfp img {
+    height: 48px;
+    width: 48px;
+    border-radius: 100px;
 }
