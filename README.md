@@ -8,7 +8,7 @@ a practice odin project, made to practice css grid and flexbox layout skills.
 - live at: https://asitos.github.io/admin-dashboard/  
 
 ## purpose & themes
-- a practice project (originally from The Oding Project exercises).
+- a practice project (originally from The Odin Project exercises).
 - a showcase of:
     - admin dashboard layout and desgin
     - css grid & flexbox layouts
@@ -25,7 +25,7 @@ a practice odin project, made to practice css grid and flexbox layout skills.
    git clone https://github.com/asitos/admin-dashboard.git
    ```
 
-2. open 'index.html in your browser(eg. firefox)
+2. open 'index.html' in your browser(eg. firefox)
     ```bash
     cd admin-dashboard
     firefox index.html
