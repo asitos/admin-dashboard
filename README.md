@@ -10,7 +10,7 @@ a practice odin project, made to practice css grid and flexbox layout skills.
 ## purpose & themes
 - a practice project (originally from The Odin Project exercises).
 - a showcase of:
-    - admin dashboard layout and desgin
+    - admin dashboard layout and design
     - css grid & flexbox layouts
 
 
